@@ -7,8 +7,8 @@ local config = {
 	window_decorations = "RESIZE",
 	default_cursor_style = "BlinkingBar",
 	font = wezterm.font("JetBrains Mono", { weight = "Bold" }),
-	colors = require("themes.cyberdream"),
 	font_size = 16,
+	colors = require("colors.cyberdream"),
 }
 
 return config
