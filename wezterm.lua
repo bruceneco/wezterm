@@ -18,11 +18,10 @@ local config = {
 
 	background = {
 		{
-			source = { File = wezterm.config_dir .. "/backgrounds/big-sur-blur.png" },
-			hsb = { brightness = 0.02 },
-		},
-		{
-			source = { Color = "black" },
+			source = { File = wezterm.config_dir .. "/backgrounds/elden-blur.jpg" },
+			vertical_align = "Middle",
+			horizontal_align = "Center",
+			hsb = { brightness = 0.03 },
 		},
 	},
 }
