@@ -9,6 +9,22 @@ local config = {
 	font = wezterm.font("JetBrains Mono", { weight = "Bold" }),
 	font_size = 16,
 	colors = require("colors.cyberdream"),
+	window_padding = {
+		left = 3,
+		right = 0,
+		top = 0,
+		bottom = 0,
+	},
+
+	background = {
+		{
+			source = { File = wezterm.config_dir .. "/backgrounds/big-sur-blur.png" },
+			hsb = { brightness = 0.02 },
+		},
+		{
+			source = { Color = "black" },
+		},
+	},
 }
 
 return config
